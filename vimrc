@@ -1,5 +1,6 @@
 execute pathogen#infect()
 syntax on
+colorscheme badwolf
 filetype plugin indent on
 set number relativenumber
 set hlsearch
