@@ -4,3 +4,6 @@
 [submodule "bundle/vim-cpp-enhanced-highlight"]
 	path = bundle/vim-cpp-enhanced-highlight
 	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
+[submodule "bundle/latex-box"]
+	path = bundle/latex-box
+	url = git://github.com/LaTeX-Box-Team/LaTeX-Box.git

@@ -15,3 +15,4 @@ set wildmenu
 set showmatch
 let mapleader=","
 nnoremap <leader><space> :nohlsearch<CR>
+let g:LatexBox_latexmk_options = "-pvc -pdfps"
