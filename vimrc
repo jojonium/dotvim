@@ -4,9 +4,6 @@ filetype plugin indent on
 set number relativenumber
 set hlsearch
 set incsearch
-let g:tex_flavor='latex'
-let g:Tex_DefaultTargetFormat = 'pdf'
-let g:Tex_CompileRule_pdf = 'latexmk -pdf -f $*'
 imap jj <Esc>
 set textwidth=80
 set cc=+1
