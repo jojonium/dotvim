@@ -4,6 +4,3 @@
 [submodule "bundle/vim-cpp-enhanced-highlight"]
 	path = bundle/vim-cpp-enhanced-highlight
 	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
-[submodule "bundle/vim-latex-live-preview"]
-	path = bundle/vim-latex-live-preview
-	url = https://github.com/xuhdev/vim-latex-live-preview.git
