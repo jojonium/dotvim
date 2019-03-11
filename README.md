@@ -1,10 +1,10 @@
 ### Installation:
 
-	git clone git://github.com/jojonium/dotvim.git ~/.vim
+	git clone https://github.com/jojonium/dotvim.git
 
 ### Create symlinks:
 
-	ln -s ~/dotfiles/vimrc~/.vimrc
+	ln -s ~/dotfiles/vimrc ~/.vimrc
 
 ### Update submodules:
 
