@@ -5,6 +5,7 @@ filetype plugin indent on
 set number relativenumber
 set hlsearch
 set incsearch
+set tabstop=4
 imap jj <Esc>
 set textwidth=80
 set cc=+1
