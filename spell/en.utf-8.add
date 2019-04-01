@@ -26,3 +26,8 @@ resolvers
 DNS
 Parallelization
 unencrypted
+retransmission
+retransmitted
+Retransmit
+retransmitting
+checksum
