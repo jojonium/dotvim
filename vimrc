@@ -6,6 +6,7 @@ set number relativenumber
 set hlsearch
 set incsearch
 set tabstop=4
+set shiftwidth=4
 imap jj <Esc>
 set textwidth=80
 set cc=+1
