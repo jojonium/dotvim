@@ -13,7 +13,8 @@ set cc=+1
 hi ColorColumn guibg=#2d2d2d ctermbg=246
 autocmd BufRead,BufNewFile   *.tex set spell spelllang=en_us
 autocmd BufRead,BufNewFile   *.md set spell spelllang=en_us
-autocmd BufRead,BufNewFile   *.html set softtabstop=2 expandtab
+autocmd BufRead,BufNewFile   *.html set softtabstop=2 expandtab shiftwidth=2
+autocmd BufRead,BufNewFile   *.css set softtabstop=2 expandtab shiftwidth=2
 set cursorline
 set wildmenu
 set showmatch
