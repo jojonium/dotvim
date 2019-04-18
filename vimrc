@@ -7,7 +7,7 @@ set hlsearch
 set incsearch
 set tabstop=4
 set shiftwidth=4
-imap jj <Esc>
+imap jk <Esc>
 set textwidth=80
 set cc=+1
 hi ColorColumn guibg=#2d2d2d ctermbg=246
