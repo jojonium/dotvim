@@ -1,6 +1,6 @@
 execute pathogen#infect()
 syntax on
-colorscheme badwolf
+"colorscheme badwolf
 filetype plugin indent on
 set number relativenumber
 set hlsearch
@@ -15,6 +15,7 @@ autocmd BufRead,BufNewFile   *.tex set spell spelllang=en_us
 autocmd BufRead,BufNewFile   *.md set spell spelllang=en_us
 autocmd BufRead,BufNewFile   *.html set softtabstop=2 expandtab shiftwidth=2
 autocmd BufRead,BufNewFile   *.css set softtabstop=2 expandtab shiftwidth=2
+autocmd BufRead,BufNewFile   *.js set softtabstop=2 expandtab shiftwidth=2
 set cursorline
 set wildmenu
 set showmatch
