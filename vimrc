@@ -17,8 +17,9 @@ autocmd BufRead,BufNewFile   *.md set spell spelllang=en_us
 autocmd BufRead,BufNewFile   *.html set softtabstop=2 expandtab shiftwidth=2
 autocmd BufRead,BufNewFile   *.css set softtabstop=2 expandtab shiftwidth=2
 autocmd BufRead,BufNewFile   *.js set softtabstop=2 expandtab shiftwidth=2
+autocmd BufRead,BufNewFile   *.ts set softtabstop=2 expandtab shiftwidth=2
+autocmd BufRead,BufNewFile   *.json set softtabstop=2 expandtab shiftwidth=2
 autocmd BufRead,BufNewFile   *.hs set softtabstop=2 expandtab shiftwidth=2
-autocmd BufRead,BufNewFile   *.cpp set softtabstop=2 expandtab shiftwidth=2
 set cursorline
 set wildmenu
 set showmatch
