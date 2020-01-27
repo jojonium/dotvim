@@ -7,7 +7,6 @@ set hlsearch
 set incsearch
 set tabstop=4
 set shiftwidth=4
-"set nojoinspaces
 imap jk <Esc>
 set textwidth=80
 set cc=+1
@@ -36,18 +35,21 @@ imap <buffer> ((     \eqref{
 
 let LatexBox_output_type = "pdf"
 
-" Options for Vim Plus
+" Options for Vim Plug
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
+
+" status line
+set laststatus=2
+set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
 
 "
 " Options for coc
 "
 
 set hidden
-set cmdheight=2
-set updatetime=300
+set updatetime=100
 set shortmess+=c
 set signcolumn=yes
 
