@@ -22,3 +22,6 @@
 [submodule "pack/airblade/start/vim-gitgutter"]
 	path = pack/airblade/start/vim-gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "bundle/vim-pandoc"]
+	path = bundle/vim-pandoc
+	url = git@github.com:vim-pandoc/vim-pandoc.git
