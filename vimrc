@@ -1,6 +1,7 @@
 execute pathogen#infect()
 syntax on
 "colorscheme badwolf
+colorscheme xcodedark
 filetype plugin indent on
 set number relativenumber
 set hlsearch
@@ -9,7 +10,7 @@ set tabstop=4
 set shiftwidth=4
 imap jk <Esc>
 set textwidth=80
-set cc=+1
+set cc+=81
 hi ColorColumn guibg=#2d2d2d ctermbg=246
 autocmd BufRead,BufNewFile   *.tex set spell spelllang=en_us
 autocmd BufRead,BufNewFile   *.md set spell spelllang=en_us
@@ -24,6 +25,10 @@ set wildmenu
 set showmatch
 let mapleader=","
 nnoremap <leader><space> :nohlsearch<CR>
+
+" options for vim pandoc
+"let g:pandoc#filetypes#handled = ["pandoc", "markdown"]
+"let g:pandoc#filetypes#pandoc_markdown = 0
 
 " options for LatexBox
 imap <buffer> [[     \begin{
@@ -158,3 +163,4 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
