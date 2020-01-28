@@ -25,5 +25,5 @@ $ git submodule update
 ### Install Plugins
 
 ```
-: CocInstall coc-tsserver coc-tslint-plugin
+: CocInstall coc-tsserver coc-tslint-plugin coc-prettier
 ```
