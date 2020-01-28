@@ -13,7 +13,7 @@ set textwidth=80
 set cc+=81
 hi ColorColumn guibg=#2d2d2d ctermbg=246
 autocmd BufRead,BufNewFile   *.tex set spell spelllang=en_us
-autocmd BufRead,BufNewFile   *.md set spell spelllang=en_us
+autocmd BufRead,BufNewFile   *.md set spell spelllang=en_us textwidth=80
 autocmd BufRead,BufNewFile   *.html set softtabstop=2 expandtab shiftwidth=2
 autocmd BufRead,BufNewFile   *.css set softtabstop=2 expandtab shiftwidth=2
 autocmd BufRead,BufNewFile   *.js set softtabstop=2 expandtab shiftwidth=2
@@ -29,6 +29,7 @@ nnoremap <leader><space> :nohlsearch<CR>
 " options for vim pandoc
 "let g:pandoc#filetypes#handled = ["pandoc", "markdown"]
 "let g:pandoc#filetypes#pandoc_markdown = 0
+let g:pandoc#formatting#mode="h"
 
 " options for LatexBox
 imap <buffer> [[     \begin{
