@@ -1,4 +1,5 @@
 # Dotvim
+
 My personal Vim configuration.
 
 ## Installation:
@@ -19,4 +20,10 @@ $ ln -s ~/.vim/vimrc ~/.vimrc
 $ cd ~/.vim
 $ git submodule init
 $ git submodule update
+```
+
+### Install Plugins
+
+```
+: CocInstall coc-tsserver coc-tslint-plugin
 ```
