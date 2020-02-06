@@ -1,4 +1,8 @@
 {
   "prettier.eslintIntegration": true,
-  "coc.preferences.formatOnSaveFiletypes": ["css", "Markdown", "typescript"]
+  "coc.preferences.formatOnSaveFiletypes": ["css", "Markdown", "typescript"],
+  "tsserver.enable": true,
+  "tsserver.enableJavascript": true,
+  "javascript.format.enabled": true,
+  "javascript.validate.enable": true
 }
