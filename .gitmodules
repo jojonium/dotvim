@@ -7,9 +7,6 @@
 [submodule "bundle/vim-pandoc-syntax"]
 	path = bundle/vim-pandoc-syntax
 	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
-[submodule "bundle/haskell-vim"]
-	path = bundle/haskell-vim
-	url = https://github.com/neovimhaskell/haskell-vim.git
 [submodule "plugged/coc.nvim"]
 	path = plugged/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
