@@ -1,9 +1,6 @@
 [submodule "bundle/vim-syntax-extra"]
 	path = bundle/vim-syntax-extra
 	url = https://github.com/justinmk/vim-syntax-extra.git
-[submodule "bundle/vim-cpp-enhanced-highlight"]
-	path = bundle/vim-cpp-enhanced-highlight
-	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
 [submodule "bundle/latex-box"]
 	path = bundle/latex-box
 	url = https://github.com/LaTeX-Box-Team/LaTeX-Box.git
