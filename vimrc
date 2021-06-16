@@ -25,19 +25,20 @@ set wildmenu
 set showmatch
 let mapleader=","
 nnoremap <leader><space> :nohlsearch<CR>
+set backspace=indent,eol,start
 
 " options for vim pandoc
 "let g:pandoc#filetypes#handled = ["pandoc", "markdown"]
 "let g:pandoc#filetypes#pandoc_markdown = 0
-let g:pandoc#formatting#mode="h"
+"let g:pandoc#formatting#mode="h"
 
 " options for LatexBox
-imap <buffer> [[     \begin{
-imap <buffer> ]]     <Plug>LatexCloseCurEnv
-nmap <buffer> <F5>   <Plug>LatexChangeEnv
-vmap <buffer> <F7>   <Plug>LatexWrapSelection
-vmap <buffer> <S-F7> <Plug>LatexEnvWrapSelection
-imap <buffer> ((     \eqref{
+"imap <buffer> [[     \begin{
+"imap <buffer> ]]     <Plug>LatexCloseCurEnv
+"nmap <buffer> <F5>   <Plug>LatexChangeEnv
+"vmap <buffer> <F7>   <Plug>LatexWrapSelection
+"vmap <buffer> <S-F7> <Plug>LatexEnvWrapSelection
+"imap <buffer> ((     \eqref{
 
 let LatexBox_output_type = "pdf"
 
