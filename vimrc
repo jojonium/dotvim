@@ -11,7 +11,7 @@ set shiftwidth=4
 imap jk <Esc>
 set textwidth=80
 set cc+=81
-hi ColorColumn guibg=#2d2d2d ctermbg=246
+hi ColorColumn guibg=#2c333a ctermbg=246
 autocmd BufRead,BufNewFile   *.tex set spell spelllang=en_us
 autocmd BufRead,BufNewFile   *.md set spell spelllang=en_us textwidth=80
 autocmd BufRead,BufNewFile   *.html set softtabstop=2 expandtab shiftwidth=2
@@ -167,4 +167,4 @@ nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
 " Prettier
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
+" command! -nargs=0 Prettier :CocCommand prettier.formatFile
