@@ -28,5 +28,5 @@ $ git submodule update
 $ cd ~/.vim/plugged/coc.nvim
 $ npm install
 $ vim
-: CocInstall coc-tsserver coc-tslint-plugin coc-prettier
+: CocInstall coc-tsserver coc-tslint-plugin coc-prettier coc-svelte
 ```
