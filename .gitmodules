@@ -22,3 +22,6 @@
 [submodule "pack/pangloss/start/vim-javascript"]
 	path = pack/pangloss/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "pack/HerringtonDarkholme/yats.vim"]
+	path = pack/HerringtonDarkholme/yats.vim
+	url = https://github.com/HerringtonDarkholme/yats.vim.git
