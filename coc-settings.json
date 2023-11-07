@@ -1,8 +1,9 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "Markdown", "typescript"],
+  "[typescript][javascript][css]": {
+    "coc.preferences.formatOnSave": true
+  },
   "tsserver.enable": true,
-  "tsserver.enableJavascript": true,
-  "javascript.format.enabled": true,
+  "javascript.format.enable": true,
   "javascript.validate.enable": true,
   "typescript.validate.enable": true,
   "eslint.autoFixOnSave": true,
@@ -20,5 +21,6 @@
         }
       }
     }
-  }
+  },
+  "svelte.enable-ts-plugin": true
 }
